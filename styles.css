@@ -1,0 +1,65 @@
+body {
+    background-color: plum;
+    font-family: 'Dancing Script', cursive;
+}
+h1, h2 {
+    text-align: center;
+    color: rgb(156, 10, 10);
+}
+.love {
+    position: absolute;
+    width: 1280px;
+    height: 500px;
+    opacity: 30%;
+}
+.content {
+    position: relative;
+}
+.gifts {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    width: 300px;
+    height: 300px;
+}
+.one,.two,.three {
+    width: 300px;
+    height: 300px;
+    border: 2px solid plum;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.one{
+   cursor: pointer;
+   background-image: url("6f3c8e93-eaca-4d25-a966-65cdd468f05a.jpeg");
+   background-size: 300px 300px;
+   transition: background-image 0.25s;
+
+}
+.one:hover {
+    background-image:url("𝙰 _𝚂𝙼𝙴𝙻𝙻 𝚁𝙴𝙰𝙻𝙻𝚈 𝙶𝙾𝙾𝙳_ 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 🍨.jpeg");  
+}
+
+.two{
+   cursor: pointer;
+   background-image: url("6f3c8e93-eaca-4d25-a966-65cdd468f05a.jpeg");
+   background-size: 300px 300px;
+   transition: background-image 0.25s;
+
+}
+
+.two:hover {
+    background-image:url("3ce32af3-4e3e-452e-9184-af400da17330.jpeg");
+}
+
+.three{
+    cursor: pointer;
+   background-image: url("6f3c8e93-eaca-4d25-a966-65cdd468f05a.jpeg");
+   background-size: 300px 300px;
+   transition: background-image 0.25s;
+}
+.three:hover {
+    background-image: url("4pcs Mock Neck Rib Knit Tank Top.jpeg");
+
+}
